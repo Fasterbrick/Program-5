@@ -9,6 +9,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (weak) IBOutlet NSTextField *xTextField;
+@property (weak) IBOutlet NSTextField *yTextField;
+@property (weak) IBOutlet NSTextField *resultLabel;
+
+- (IBAction)compareValues:(id)sender;
 
 @end
-
